@@ -1,0 +1,179 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0077cc;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navbar .logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar nav ul li {
+  display: inline;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  background: #005f99;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: url('image.webp') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero-text h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero .hero-text p {
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0077cc;
+}
+
+.article .content h2 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #555;
+}
+
+/* Health Section */
+.health {
+  margin: 20px 0;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.health p {
+  margin: 10px 0;
+  line-height: 1.8;
+}
+
+.health p strong {
+  color: #0077cc;
+}
+
+/* Section Titles */
+h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 20px 0 10px;
+  border-bottom: 2px solid #0077cc;
+  display: inline-block;
+}
+
+/* Articles */
+article {
+  margin-bottom: 20px;
+}
+
+article h3 {
+  color: #005f99;
+}
+
+article .health {
+  background: #e6f7ff;
+}
+
+/* Last Content */
+.last-content {
+  padding: 20px;
+  background: #f0f0f0;
+  text-align: center;
+  margin: 20px 0;
+  border-top: 3px solid #0077cc;
+}
+
+.last-content p {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #0077cc;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero .hero-text h2 {
+    font-size: 2rem;
+  }
+
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+}

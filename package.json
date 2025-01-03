@@ -1,0 +1,12 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "This is a HTTP server file",
+  "main": "indexNode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC"
+}
